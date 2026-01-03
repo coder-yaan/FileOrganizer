@@ -1,0 +1,31 @@
+# Qt / qmake
+.qtcreator/
+*.user
+*.user.*
+*.pro.user
+*.qmake.stash
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+
+# Windows build files
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+
+# Qt Creator autosave
+*.autosave
+
+# OS
+.DS_Store
+Thumbs.db

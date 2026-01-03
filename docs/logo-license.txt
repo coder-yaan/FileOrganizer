@@ -1,0 +1,16 @@
+Copyright (c) 2026 Ayan
+
+The name "FileOrganizer", its logo, and application icon
+are original works created by the author.
+
+These assets are NOT covered by the MIT License.
+
+Permission is NOT granted to:
+- Use the logo or icon in other projects
+- Modify or redistribute the logo or icon
+- Use the logo or icon for commercial or branding purposes
+- Use it as branding for forks
+
+The logo may only be used to represent the original application.
+
+All rights reserved.

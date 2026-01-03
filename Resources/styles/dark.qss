@@ -1,0 +1,99 @@
+/* Main Window Background */
+QMainWindow {
+    /*background-color:  #161616; */
+    background-color: #1F1F1F;
+}
+QWidget#centralwidget {
+    background-color: #1F1F1F;
+}
+/* The Bar itself */
+QMenuBar {
+    background-color: #161616;
+    color: #e0e0e0;
+    /* Rounding only the bottom edges */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* Adjusting height: Smaller top/bottom padding makes it thinner */
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #333333;
+    border-top: none; /* Keep the top flat against the window border */
+}
+QMenuBar::item {
+    padding: 4px 10px;
+    background: transparent;
+}
+QMenuBar::item:selected {
+    background-color: #3d3d3d; /* Highlights when you hover */
+}
+QMenu::item:selected {
+    background-color: #0056b3;
+}
+QStatusBar {
+    background-color: #161616; /* 6-digit hex is safer */
+    color: #e0e0e0;
+    border-top: 1px solid #333333; /* Creates a clean line above it */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 4px;
+    margin: 0px;
+}
+QStatusBar::item {
+    border: none;
+}
+/* The "File Organizer" Title */
+QLabel#title_label {
+    background-color: #333333;; /* Keep it blue if you like */
+    color: #ffffff;
+    border: 6px #034b98ff solid;
+    padding: 6px; /* Gives the text breathing room */           /* Gives the text breathing room */
+    border-radius: 8px;
+    qproperty-alignment: 'AlignCenter'; /* THE SECRET SAUCE */
+}
+QLabel#path_label QLabel#status_label {
+    color: #e0e0e0;
+}
+QLineEdit {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #444444;
+    border-top: 2px solid #111111; /* Reverse depth */
+    border-radius: 4px;
+}
+/* Browse Button (3D Pop) */
+QPushButton#browse_button {
+    background-color: #3d3d3d;
+    color: white;
+    border: 1px solid #222222;
+    border-bottom: 3px solid #000000;
+    border-radius: 8px;
+    padding: 6px;
+}
+QPushButton#browse_button:pressed {
+    border-bottom: 1px solid #000000;
+    margin-top: 2px;
+}
+/* Clear Button (3D Pop) */
+QPushButton#clear_button {
+    background-color: #3d3d3d;
+    color: white;
+    border: 1px solid #222222;
+    border-bottom: 3px solid #000000;
+    border-radius: 8px;
+    padding: 6px;
+}
+QPushButton#clear_button:pressed {
+    border-bottom: 1px solid #000000;
+    margin-top: 2px;
+}
+/* Keep Organize Button Green but slightly darker */
+QPushButton#organize_button {
+    background-color: #218838;
+    color: white;
+    border-radius: 8px;
+    border-bottom: 4px solid #0a3d16;
+}
+QPushButton#organize_button:pressed {
+    border-bottom: 1px solid #0a3d16;
+    margin-top: 3px;
+}

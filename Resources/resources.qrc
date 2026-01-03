@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/resc"/>
+    <qresource prefix="/styles"/>
+    <qresource prefix="/">
+        <file>resc/icon.ico</file>
+        <file>styles/dark.qss</file>
+        <file>styles/light.qss</file>
+    </qresource>
+</RCC>
