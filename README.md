@@ -17,15 +17,42 @@ It was built to demonstrate the power of **Modern C++ (std::filesystem)** combin
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Window (Light Theme)](results/screenshots/light_theme_window.png)
+<p align="center">
+  <img src="results/screenshots/light_theme_window.png" width="700">
+</p>
 
-![Main Window (Dark Theme)](results/screenshots/dark_theme_window.png)
+<p align="center">
+  <img src="results/screenshots/dark_theme_window.png" width="500">
+</p>
 
 ### Organizing in Progress
-![Organizing](results/screenshots/organizing.png)
+<p align="center">
+  <img src="results/screenshots/organizing.png" width="500">
+</p>
 
 ### Success Dialog
-![Success](results/screenshots/success.png)
+<p align="center">
+  <img src="results/screenshots/success.png" width="500">
+</p>
+
+---
+
+## 🚀 Demo
+
+### Before Organizing
+<p align="center">
+  <img src="results/gifs/unorganized.gif" width="500">
+</p>
+
+### Organizing Process
+<p align="center">
+  <img src="results/gifs/organizer.gif" width="500">
+</p>
+
+### Final Result
+<p align="center">
+  <img src="results/gifs/completed.gif" width="500">
+</p>
 
 ---
 
