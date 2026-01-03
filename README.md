@@ -14,6 +14,21 @@ It was built to demonstrate the power of **Modern C++ (std::filesystem)** combin
 
 ---
 
+## 📸 Screenshots
+
+### Main Interface
+![Main Window (Light Theme)](results/screenshots/light_theme_window.png)
+
+![Main Window (Dark Theme)](results/screenshots/dark_theme_window.png)
+
+### Organizing in Progress
+![Organizing](results/screenshots/organizing.png)
+
+### Success Dialog
+![Success](results/screenshots/success.png)
+
+---
+
 ## ✨ Key Features
 
 ### 🧠 Smart Classification
