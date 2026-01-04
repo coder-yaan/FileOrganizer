@@ -122,12 +122,12 @@ The organizer normalizes directories **without overriding user intent**.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/FileOrganizer.git
+    git clone https://github.com/coder-yaan/FileOrganizer.git
     cd FileOrganizer
     ```
 
 2.  **Open the project:**
-    - Open `FileOrganizer.pro` in **Qt Creator**
+    - Open `File_Organizer.pro` in **Qt Creator**
 
 3.  **Configure:**
     - Select a Qt 6 Kit (MinGW or MSVC)
